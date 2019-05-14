@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: AIGOU-PLAT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///crm?useSSL=false
+    username: root
+    password: root
+
